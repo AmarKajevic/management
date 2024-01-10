@@ -4,7 +4,7 @@
     "Description": "----",
     "Price": 1750,
     "Points":20,
-    "PictureUrl": "",
+    "PictureUrl": "assets/biobalance.jpg",
     "ProductTypeId": 1,
     "ProductBrandId": 1
   },
@@ -13,7 +13,7 @@
     "Description": "----",
     "Price": 3000,
     "Points":30,
-    "PictureUrl": "",
+    "PictureUrl": "assets/biobalance.jpg",
     "ProductTypeId": 1,
     "ProductBrandId": 1
   }
