@@ -13,12 +13,12 @@ namespace API.Helpers
             PageSize = pageSize;
             Count = count;
             Data = data;
+
         }
 
         public int PageIndex { get; set; }
         public int PageSize { get; set; }
         public int Count { get; set; }
-        public IReadOnlyList<T> Data {get; set;}
-
+        public IReadOnlyList<T> Data { get; set; }
     }
 }

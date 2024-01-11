@@ -7,7 +7,7 @@ namespace API.Errors
 {
     public class ApiResponse
     {
-         public ApiResponse(int statusCode, string message = null)
+        public ApiResponse(int statusCode, string message = null)
         {
             StatusCode = statusCode;
             Message = message ?? GetDefaultMessageForStatusCode(statusCode);
@@ -29,5 +29,4 @@ namespace API.Errors
             };
         }
     }
-    
 }
