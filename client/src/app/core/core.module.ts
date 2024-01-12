@@ -10,6 +10,8 @@ import { SectionHeaderComponent } from './section-header/section-header.componen
 import { BreadcrumbModule } from 'xng-breadcrumb';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { SharedModule } from '../shared/shared.module';
+import { AccountModule } from '../account/account.module';
+
 
 
 
@@ -19,7 +21,8 @@ import { SharedModule } from '../shared/shared.module';
     TestErrorComponent,
     NotFoundComponent,
     ServerErrorComponent,
-    SectionHeaderComponent
+    SectionHeaderComponent,
+  
 
   ],
   imports: [
@@ -32,13 +35,15 @@ import { SharedModule } from '../shared/shared.module';
     }),
     BreadcrumbModule,
     NgxSpinnerModule,
-    SharedModule
+    SharedModule,
+    AccountModule
 
   ],
   exports: [
     NavBarComponent,
     SectionHeaderComponent,
-    NgxSpinnerModule
+    NgxSpinnerModule,
+
   ]
 })
 export class CoreModule { }

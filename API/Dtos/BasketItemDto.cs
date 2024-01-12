@@ -20,6 +20,7 @@ namespace API.Dtos
         public int Quantity { get; set; }
         [Required]
         public string PictureUrl { get; set; }
+        public int Points { get; set; }
         [Required]
         public string Brand { get; set; }
         [Required]

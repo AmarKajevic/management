@@ -10,5 +10,6 @@ namespace Core.Entities.Identity
     {
         public string Displayname { get; set; }
         public Address Address { get; set; } 
+        
     }
 }

@@ -4,6 +4,7 @@ export interface BasketItem{
     id:number;
     productName:string;
     price:number;
+    points:number;
     quantity:number;
     pictureUrl:string;
     brand:string;

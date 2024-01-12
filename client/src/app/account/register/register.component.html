@@ -7,6 +7,10 @@
             <app-text-input [formControl]="registerForm.controls['displayName']" [label]="'Display Name'"></app-text-input>
             <app-text-input [formControl]="registerForm.controls['email']" [label]="'Email'"></app-text-input>
             <app-text-input [formControl]="registerForm.controls['password']"[label]="'Password'" [type]="'password'"></app-text-input>
+            <div class="form-group">
+                <label for="invitationCode">Invitation Code:</label>
+                <input type="text" id="invitationCode" formControlName="invitationCode" class="form-control">
+              </div>
             
             <ul class="text-danger list-unstyled" *ngIf="errors">
                 <li *ngFor="let error of errors ">
